@@ -9,6 +9,8 @@
 <style>
     h1 {
         color: #1c4474;
+        background-color: #dc9951;
+        padding: 10px;
         font-size: 36px;
         font-weight: bold;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -24,14 +26,25 @@
         margin-left: auto;           
         margin-right: auto;
     }
-    
+  .campus-img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+  }
+  #foot {
+    background: #1c4474;
+    color: #a7580a;
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+  }
 </style>
   </head>
 
 <body>
 <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #f3f0eb;">
   <div class="container-fluid">
-     <a class="navbar-brand" href="#"><img src="file:///Users/ember/Downloads/FV_ICT9Emerald_Q1Project_Group%232%20(1).png" alt="ob_logo" class="img-fluid" style="height: 100px; width: 200px;"></a>
+     <a class="navbar-brand" href="#"><img src="file:///Users/ember/Downloads/Cailey/FV_ICT9Emerald_Q1Project_Group%232%20(1).png" alt="ob_logo" class="img-fluid" style="height: 100px; width: 200px;"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -41,10 +54,10 @@
           <a class="nav-link" href="#" style="color:#1c4474; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="color:#1c4474; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">About Us</a>
+          <a class="nav-link" href="#about-us" style="color:#1c4474; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="color:#1c4474; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Contact Us</a>
+          <a class="nav-link" href="#campuses" style="color:#1c4474; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Campuses</a>
         </li>
       </ul>
       <form class="d-flex">
@@ -61,11 +74,33 @@
         </div>
     </div>
 </div>
-
  <br>
-    <section>
-        <h1>The Montessori Way</h1>
+    <div class="container-fluid" id="about-us">
+        <h1>O.B Montessori Center</h1>
             <p>At Operation Brotherhood Montessori Center, every child is guided through the whole-child approach developed by Dr. Maria Montessori.<br><br>Welcome to O.B. Montessori Center in the Philippines! We’re a forward-thinking, co-educational school serving students from pre-kindergarten through Grade 12, and we offer a strong alternative to international schools. At OBMC, time-honored teaching meets fresh ideas so that each child is ready for life.<br><br>Our mission is to help students grow into self-motivated, capable people who can thrive, lead, and make a difference in a world that never stops changing.</p>
-    </section>
+    </div>
+<div class="container-fluid" id="campuses">
+    <h1>Our Campuses</h1>
+     <div class="row row-cols-5 g-3">
+        <div class="col">
+            <img src="https://scontent.fmnl25-2.fna.fbcdn.net/v/t1.15752-9/867723024_926551827057270_4673568946937429159_n.png?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=_soTrIp0CT8Q7kNvwFKL9HY&_nc_oc=AdodL7_HQAZWLKAnN16rybVQ23h0fGK-I-zq0LQa_hO-gDn7syaaSFIN1hKqZbQhwt4&_nc_zt=23&_nc_ht=scontent.fmnl25-2.fna&_nc_ss=7b6a8&oh=03_Q7cD6wFA6BFJ7_F3RLD1df4DZ2IwCyj7hBYeW9l2eU6JcOaaxA&oe=6B10DA88" class="campus-img" alt="Fairview">
+        </div>
+        <div class="col">
+            <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/867019054_1577905570804093_7096023845416777206_n.png?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=lMJ5ytr_xRMQ7kNvwEWm90E&_nc_oc=Adpcf-64EqXYt79ItazLfizeGNcHuK350XCl_yZO36S2OfyIeAwF3ig3atSgtk1IpO0&_nc_zt=23&_nc_ht=scontent.fmnl25-4.fna&_nc_ss=7b6a8&oh=03_Q7cD6wF3r9zGiyGMjRslFtXS4MasgL9ytv5kM00Ar060U4YbAg&oe=6B10BE30" class="campus-img" alt="Greenhills">
+        </div>
+        <div class="col">
+            <img src="https://scontent.fmnl25-8.fna.fbcdn.net/v/t1.15752-9/865087952_1416672973785176_2267550099206664457_n.png?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=0KOPaRkwbIYQ7kNvwEg6H7B&_nc_oc=Adq7WxWY6KCsCuqakHhZlGiNWPcFx5fnzZ49XFZQXe4irS6kmSX_dVpPyimJ-b8cqIA&_nc_zt=23&_nc_ht=scontent.fmnl25-8.fna&_nc_ss=7b6a8&oh=03_Q7cD6wGYw6gDN8-K0AzTQjuSRpMCkhnr8_qvDRtWgtldUxyxhw&oe=6B10D0EA" class="campus-img" alt="Las Piñas">
+        </div>
+        <div class="col">
+          <img src="https://scontent.fmnl4-8.fna.fbcdn.net/v/t1.15752-9/862720847_1675618947495331_3693568427436602629_n.png?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=SfOCGs6zwToQ7kNvwHR8SKe&_nc_oc=Adoe21Bh7-SLGSSDA0BR6eICQQ2MQ297bqfClFNeOpAjxKB_f6FYMzRrY9DyEaq5vc8&_nc_zt=23&_nc_ht=scontent.fmnl4-8.fna&_nc_ss=7b6a8&oh=03_Q7cD6wEIJME9HZhulNKk2zxzdNa6lWhgtXF-d2-oBWoVUvcsIw&oe=6B10C371" class="campus-img" alt="Sta. Ana">
+        </div>
+        <div class="col">
+            <img src="https://scontent.fmnl9-7.fna.fbcdn.net/v/t1.15752-9/864782111_4595493400596251_2475403790258530071_n.png?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=hV6dnld7yE8Q7kNvwHUqwlW&_nc_oc=Adpb5xELNqvGyvJTod-1NJXcw6Y3Zj3Crxwq4B9b6X2pLfWhdjw_0PXnatBXQNtMmlc&_nc_zt=23&_nc_ht=scontent.fmnl9-7.fna&_nc_ss=7b6a8&oh=03_Q7cD6wEjMsprRmCiBhC78iwT3L7mzPR9RA5OZOnOGFrNNp39lg&oe=6B10B57F" class="campus-img" alt="Angeles">
+        </div>
+    </div>
+</div>
+<footer id="footer">
+    <p id="foot"> &copy;2026 ICT Q2 Drill #2. All rights reserved. | Created by Khiane Herrera 9E</p>
+</footer>
 </body>
 </html>
